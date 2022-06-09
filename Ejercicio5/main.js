@@ -6,5 +6,5 @@ else {
 }
 
 function numRandom() {
-    return Math.round(Math.random)
+    return Math.round(Math.random);
 }
