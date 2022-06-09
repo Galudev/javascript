@@ -1,4 +1,4 @@
-if (numRandom == 0) {
+if (numRandom() == 0) {
     console.log("cara");
 }
 else {
@@ -6,5 +6,5 @@ else {
 }
 
 function numRandom() {
-    return Math.round(Math.random);
+    return Math.round(Math.random());
 }
